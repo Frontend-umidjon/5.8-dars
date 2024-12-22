@@ -69,7 +69,7 @@ modalForm.addEventListener('submit', (e) => {
     })
         .then(res => res.json())
         .then(res => {
-            createUserCards([res])
+            createUserCards(res)
             modalForm.innerHTML= null
             modal.style.display = 'none'
         })
