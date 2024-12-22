@@ -358,3 +358,20 @@ body {
     }
 }
 
+.team__card-delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    animation: pulse 2s infinite;
+}
